@@ -18,4 +18,5 @@ def turn(board=[" "," "," "," "," "," "," "," "," "])
     move(board,index,"X")
   end
   display_board(board)
+  puts"done4"
 end
