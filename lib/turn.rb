@@ -12,7 +12,7 @@ def turn(board=[" "," "," "," "," "," "," "," "," "])
   until move
     input=gets.strip
     index=input_to_index(input)
-    move(board,index)
+    move(board,index,"X")
   end
   display_board(board)
 end
