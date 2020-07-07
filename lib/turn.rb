@@ -17,6 +17,7 @@ def turn(board=[" "," "," "," "," "," "," "," "," "])
     index=input_to_index(input)
     move(board,index,"X")
   end
+  puts"doneee"
   display_board(board)
   puts"done4"
 end
