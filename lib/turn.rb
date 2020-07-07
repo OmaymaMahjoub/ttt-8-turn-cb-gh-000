@@ -6,7 +6,7 @@ def input_to_index(input)
 end
 def turn(board=[" "," "," "," "," "," "," "," "," "])
   puts "Please enter 1-9:"
-  input=gets.strip
+  input=gets.to_i
   index=input_to_index(input)
   move(board,index,"X")
   until move
